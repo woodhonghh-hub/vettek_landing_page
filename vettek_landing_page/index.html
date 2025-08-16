@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vettek - Shortlist talent others overlook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- gsap CDN link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">
+              <img class="logo-image" src="Assets/Images/logo_dark.svg" alt="vettek logo">
+              <ul class="nav-links">
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#vision">Vision</a></li>
+                <li><a href="#team">Our Team</a></li>
+            </ul>
+            </div>
+            <div class="auth-buttons">
+                <a href="https://www.vettek.co/beta-access" class="btn btn-outline">Log in</a>
+                <a href="https://www.vettek.co/beta-access" class="btn btn-primary">Get started</a>
+            </div>
+            <button class="hamburger" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+              <img src="Assets/Images/menu.svg" alt="menu" class="hamburger-icon">
+            </button>
+        </nav>
+        <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
+          <ul class="mobile-nav-links">
+            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#vision">Vision</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="https://www.vettek.co/beta-access" class="btn btn-outline">Log in</a></li>
+            <li><a href="https://www.vettek.co/beta-access" class="btn btn-primary" style="color: #ffffff;">Get started</a></li>
+          </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="border-radius: 100px 0 100px 0;">
+        <div class="container">
+            <div class="hero-images">
+                <picture>
+                    <source srcset="Assets/Images/hero_m.png" media="(max-width: 768px)">
+                    <img src="Assets/Images/hero_d.png" alt="Hero Image" class="hero-image">
+                </picture>
+            </div>
+            <h1 id="hero-title">Shortlist talent others overlook</h1>
+            <p>Our AI interview engine simulates real-life interviews to test both skills and judgment.<br> No more guessing from resumes, find people who can do the job and excel at it.</p>
+            <a href="https://www.vettek.co/beta-access" class="btn btn-primary" style="display: inline-flex; align-items: center; line-height: 0;">
+              Start Free Trial
+              <div class="">
+                  <img src="Assets/Images/icon_arrow.svg" alt="arrow icon" class="arrow-icon">
+              </div>
+            </a>
+            <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3tfHKxIkVxXlVBDFWVfXVVOscVYM3-SVhQckFXUYxYkw2C4XtUcsOUCHhFDA5eBPDlzSTjR-_p?gv=true" class="btn btn-underline">Schedule a demo</a>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section class="use-cases" id="cases" style="border-radius: 0 100px 0 100px;">
+        <div class="container">
+            <h2>Use cases</h2>
+            <div class="use-cases-grid">
+                <div class="use-case">
+                  <div class="use-case-image">
+                      <img src="Assets/Images/recruiters.png" alt="recruiters" class="use-case-icon">
+                  </div>
+                    <h2>Recruiters</h2>
+                    <p class="use-case-title">Filter AI polished resume with domain expertise</p>
+                    <ul>
+                      <li>Reduce the chance of missing high-potential candidates.</li>
+                      <li>Shorten the time-to-hire by streamlining the pre-screening process.</li>
+                    </ul>
+                </div>
+                <div class="use-case">
+                  <div class="use-case-image">
+                      <img src="Assets/Images/managers.png" alt="managers" class="use-case-icon">
+                  </div>
+                    <h2>Managers</h2>
+                    <p class="use-case-title">Access competency indicator for hard and soft skills</p>
+                    <ul>
+                      <li>Confidently verify technical skills through relevant, role-based questions.</li>
+                      <li>Ensure candidates align with team dynamics and can collaborate effectively.</li>
+                    </ul>
+                </div>
+                <div class="use-case">
+                  <div class="use-case-image">
+                      <img src="Assets/Images/founders.png" alt="founders" class="use-case-icon">
+                  </div>
+                    <h2>Founders</h2>
+                    <p class="use-case-title">Cherry pick the ones who has long term growth potential</p>
+                    <ul>
+                      <li>Hire self-driven high performers who are motivated to exceed expectations.</li>
+                      <li>Ensure candidates demonstrate high standards, curiosity, and responsibility from the start.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Predictive Hiring Section -->
+    <section class="predictive-hiring" style="border-radius: 100px 0 100px 0; text-align: center;">
+        <div class="container">
+            <h1>Predictive hiring in 3 steps</h1>
+            <div class="steps-grid">
+                <div class="step" style="border-radius: 100px 0 100px 0;">
+                    <div class="step-image">
+                        <img src="Assets/Images/screening.svg" alt="screening" class="use-case-icon">
+                    </div>
+                    <span class="step-chip">STEP 1</span>
+                    <h2>Screening</h2>
+                    <div>
+                        <p>Efficiently screen and match inbound applications</p>
+                    </div>
+                </div>
+                <div class="step" style="border-radius: 0 100px 0 100px;">
+                    <div class="step-image">
+                        <img src="Assets/Images/interview.svg" alt="interview" class="use-case-icon">
+                    </div>
+                    <span class="step-chip">STEP 2</span>
+                    <h2>Interview</h2>
+                    <p>Reveal human skill and domain expertise with role-based challenges.</p>
+                </div>
+                <div class="step" style="border-radius: 100px 0 100px 0;">
+                    <div class="step-image">
+                        <img src="Assets/Images/prediction.svg" alt="prediction" class="use-case-icon">
+                    </div>
+                    <span class="step-chip">STEP 3</span>
+                    <h2>Prediction</h2>
+                    <p>Forecast job performance and culture fit from data insights</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interview Section -->
+    <section id="solutions" class="interview-section" style="border-radius: 0 100px 0 0;">
+        <div class="container">
+            <div>
+                <h1>Interview for competency</h1>
+                <p>Discover talents that fit your organization with expert-backed automated interviewer that reveals hiring signal on real-world performance.</p>
+            </div>
+          <div class="interview-btn">
+            <a href="#" class="btn btn-primary btn-icon">
+                <div class="">
+                    <img src="Assets/Images/screening.svg" alt="arrow icon" class="interview-icon">
+                </div>
+                Screening
+            </a>
+            <a href="#" class="btn btn-primary btn-icon">
+                <div class="">
+                    <img src="Assets/Images/interview.svg" alt="arrow icon" class="interview-icon">
+                </div>
+                Interview
+            </a>
+            <a href="#" class="btn btn-primary btn-icon">
+                <div class="">
+                    <img src="Assets/Images/prediction.svg" alt="arrow icon" class="interview-icon">
+                </div>
+                Prediction
+            </a>
+          </div>
+            <div class="interview-content screening">
+                <div class="dashboard-mockup">
+                    <img src="Assets/Images/case_screening.png" alt="" class="solutions-image">
+                </div>
+                <div class="interview-text">
+                    <div class="stats">
+                        <div class="stat">
+                            <p class="stat-title">Assess with precision</p>
+                            <div class="stat-box">
+                                <div class="stat-line"></div>
+                                <div>
+                                    <p class="stat-description">Highly relevant and customized questions generated by High-Resolution Context Window cater to business requirements.</p>
+                                    <div class="stat-number" style="background-position: 149px 2px">75%</div>
+                                    <p class="stat-description">screening time reduction.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <p class="stat-title">Apply at scale</p>
+                            <div class="stat-box">
+                                <div class="stat-line"></div>
+                                <div>
+                                    <p class="stat-description">Manage high volume applications with questionnaires cater to your requirements.</p>
+                                    <div class="stat-number" style="background-position: -41px 116px;">36%</div>
+                                    <p class="stat-description">reduction on interview scheduling.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="interview-content interview">
+                <div class="dashboard-mockup">
+                    <img src="Assets/Images/case_interview.png" alt="" class="solutions-image">
+                </div>
+                <div class="interview-text">
+                    <div class="stats">
+                        <div class="stat">
+                            <p class="stat-title">Human competency</p>
+                            <div class="stat-box">
+                                <div class="stat-line"></div>
+                                <div>
+                                    <p class="stat-description">Our agentic AI generates role-specific scenario for performance signal detection.</p>
+                                    <div class="stat-number" style="background-position: 149px 2px">46%</div>
+                                    <p class="stat-description">more successful hires.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <p class="stat-title">Immersive experience</p>
+                            <div class="stat-box">
+                                <div class="stat-line"></div>
+                                <div>
+                                    <p class="stat-description">We put candidates through an immersive experience that engages with human-like interactions.</p>
+                                    <div class="stat-number" style="background-position: -41px 116px;">20%</div>
+                                    <p class="stat-description">higher retention rate.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="interview-content prediction">
+                <div class="dashboard-mockup">
+                    <img src="Assets/Images/case_prediction.png" alt="" class="solutions-image">
+                </div>
+                <div class="interview-text">
+                    <div class="stats">
+                        <div class="stat">
+                            <p class="stat-title">Success metrics</p>
+                            <div class="stat-box">
+                                <div class="stat-line"></div>
+                                <div>
+                                    <p class="stat-description">We focus on quality that makes candidate successful with industry benchmarking.</p>
+                                    <div class="stat-number" style="background-position: 149px 2px">30%</div>
+                                    <p class="stat-description">cost-per-hire reduction.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <p class="stat-title">Trusted & fair results</p>
+                            <div class="stat-box">
+                                <div class="stat-line"></div>
+                                <div>
+                                    <p class="stat-description">By semantic and prosodic signals, we provide fair and unbiased scoring across diverse backgrounds.</p>
+                                    <div class="stat-number" style="background-position: -41px 116px;">90%</div>
+                                    <p class="stat-description">time-to-hire reduction.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhancement Section -->
+    <section class="enhancement" style="border-radius: 0 0 100px 0;">
+        <div class="container">
+            <div class="enhancement-content">
+                <div class="">
+                    <img src="Assets/Images/background_deco.png" alt="" class="enhancement-image">
+                </div>
+                <div>
+                    <h1 style="line-height:1;padding-bottom: 1.5rem;">We enhance<br>hire <span class="enhancement-heiglight">success</span></h1>
+                    <ul class="enhancement-features">
+                        <li>
+                          <h3>TRUSTED PROCESS</h3>
+                          <p>Eliminate bias with standardized, consistent evaluation.</p>
+                        </li>
+                        <li>
+                          <h3>CANDIDATE EXPERIENCE</h3>
+                          <p>Interactive interview that gauges real potential.</p>
+                        </li>
+                        <li>
+                          <h3>GLOBAL REACH</h3>
+                          <p>Discover and access global talent.</p>
+                        </li>
+                        <li>
+                          <h3>TIMELY HIRING</h3>
+                          <p>Accelerate hiring with 24/7 AI interviews and instant feedback.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section class="solutions" id="solutions" style="border-radius: 0 100px 0 100px;">
+        <div class="container">
+            <h1 style="line-height: 1; padding-bottom: 3rem;">The recruitment solution<br>for <span class="enhancement-heiglight">every stage</span> of growth</h1>
+            <div class="solutions-content">
+              <div class="">
+                <a href="#" class="btn btn-primary btn-icon" style="margin-bottom: 1rem;">
+                    <div class="">
+                        <img src="Assets/Images/business.svg" alt="arrow icon" class="interview-icon">
+                    </div>
+                    Businesses
+                </a>
+                <a href="#" class="btn btn-primary btn-icon" style="margin-bottom: 1rem;">
+                    <div class="">
+                        <img src="Assets/Images/candidate.svg" alt="arrow icon" class="interview-icon">
+                    </div>
+                    Candidates
+                </a>
+              </div>
+              <div class="solutions-grid businesses">
+                  <div class="solution">
+                    <div class="stat-line"></div>
+                    <div>
+                        <h3>STARTUP</h3>
+                        <p>Hire fast and hire right, small teams values dynamics and culture fit, every hire counts.</p>
+                    </div>
+                  </div>
+                  <div class="solution">
+                    <div class="stat-line"></div>
+                    <div>
+                        <h3>SME</h3>
+                        <p>Scale your team and save recruitment bandwidth by accessing overlooked talent globally.</p>
+                    </div>
+                  </div>
+                  <div class="solution">
+                    <div class="stat-line"></div>
+                    <div>
+                        <h3>ENTERPRISE</h3>
+                        <p>Boost business performance and reduce turnover costs by faster hiring cycle with quality.</p>
+                    </div>
+                  </div>
+                  <div class="solution">
+                    <div class="stat-line"></div>
+                    <div>
+                        <h3>RECRUITMENT AGENCY</h3>
+                        <p>Stand out from others with deeper candidate insights and reduce placement callbacks.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="solutions-grid candidates">
+                <div class="solution">
+                  <div class="stat-line"></div>
+                  <div>
+                      <h3>Early Career</h3>
+                      <p>Showcase your potential beyond resume, preview and prepare for workplace challenges. </p>
+                  </div>
+                </div>
+                <div class="solution">
+                  <div class="stat-line"></div>
+                  <div>
+                      <h3>Career Comeback</h3>
+                      <p>Prove your value beyond the career gap, rebuild professional confidence.</p>
+                  </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Vision Section -->
+    <section class="mission-vision" id="vision" >
+        <div class="container">
+                <div class="">
+                    <img class="mission-vision-image" src="Assets/Images/koru_light.svg" alt="koru">
+                </div>
+            <div class="mission-vision-content">
+                <div>
+                    <h2>Our Vision</h2>
+                    <p>To transform recruitment by efficiently matching the right talent to drive business performance.</p>
+                </div>
+                <div>
+                    <h2>Our Mission</h2>
+                    <p>We build AI-powered platform that revolutionizes recruitment through immersive simulations and intelligent automation. By revealing how candidates think, communicate, and solve, we deliver deep and unbiased insights to hiring teams, reducing human effort, streamlining evaluation, and unlocking access to high-quality talent.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founders Section -->
+    <section class="founders" id="team" style="border-radius: 0 100px 0 100px;">
+        <div class="container">
+            <h1>Founders</h1>
+            <div style="justify-content: center; display: flex;">
+                <img class="founder-image" src="Assets/Images/team_founder.png" alt="founders">
+            </div>
+            <div class="founders-grid">
+                <div class="founder">
+                    <h2>Mou Po Hung</h2>
+                    <p>A product-driven founder with over 10 years of experience leading enterprise solutions across multimedia and smart manufacturing. At QNAP, Mou led the rebranding and UX overhaul of the multimedia backup suite, successfully migrating 1.5M legacy app users to the redesigned platform. At Synergies, he managed and delivered an AI-based scheduling system (APS) for one of the top shoemakers, and helped roll out ERP components for a manufacturing digitalization project in China. Now building an AI Interviewer to solve the recruitment inefficiencies he experienced firsthand.</p>
+                </div>
+                <div class="founder">
+                  <h1 class="enhancement-heiglight">&</h1>
+                </div>
+                <div class="founder">
+                    <h2>Hussin Almoustafa</h2>
+                    <p>Being a builder from an early age, Hussin developed his skills in machine learning, quantum computing, and research throughout his venturous journey. Leveraging his experience at industry leaders like ASML and Infosys, Hussin’s goal is to bring NLP to real-world use cases. Exposed to the recruitment conundrum industry leaders eagerly wants to solve, Hussin dedicate his skills to streamline the future of work, not only applying AI to accelerate the decision-making process, but also exploring the potential quantum computing models.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" style="border-radius: 100px 0 100px 0;">
+        <div class="container">
+            <h2>Ready to build your smarter shortlist?</h2>
+            <p>Join thousands of companies that have revolutionized their recruitment processbr<br>with Vettek's AI-powered platform.</p>
+            <a href="#" class="btn btn-primary">Case study</a>
+            <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3tfHKxIkVxXlVBDFWVfXVVOscVYM3-SVhQckFXUYxYkw2C4XtUcsOUCHhFDA5eBPDlzSTjR-_p?gv=true" class="btn btn btn-underline">Schedule a demo</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+          <div class="logo">
+            <img class="logo-image" src="Assets/Images/logo_light.svg" alt="vettek logo">
+          </div>
+          <p>|</p>
+          <p>Shortlist talent others overlook</p>
+      </div>
+        <div class="container">
+            <a href="https://www.vettek.co/terms" class="btn btn-primary">Terms of Use</a>
+            <a href="https://www.vettek.co/privacy-policy" class="btn btn-primary">Privacy Policy</a>
+            <p>&copy; 2025 Vettek. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
