@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Work Sans", sans-serif;
+    font-family: "Noto Sans TC", sans-serif;
     line-height: 1.6;
     color: #000000;
     background-image: url(Assets/Images/bg_new.jpg);
@@ -14,11 +14,10 @@ body {
 }
 
 h1 {
-  font-family: "Lexend Exa", sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  letter-spacing: -0.3rem;
   font-size: 3.5rem;
 }
 
@@ -28,27 +27,28 @@ h1 {
 }
 
 h2 {
-  font-family: "Lexend Exa", sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  letter-spacing: -0.2rem;
+  letter-spacing: 0.05rem;
 }
 
 h3 {
-  font-family: "Lexend Exa", sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  letter-spacing: -0.1rem;
+  letter-spacing: 0.03rem;
 }
 
 p {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  letter-spacing: 0.03rem;
+  letter-spacing: 0.07rem;
+  line-height: 1.8;
 }
 
 .container {
@@ -164,7 +164,7 @@ nav.container{
 
 .hero h1 {
     font-size: 3.5rem;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 1rem;
     color: #000;
 }
@@ -223,7 +223,7 @@ nav.container{
 .use-case-title{
   font-weight: 500;
   font-size: 24px;
-  line-height: 1.2;
+  line-height: 1.5;
   text-align: left;
   padding-bottom: 1rem;
 }
@@ -232,10 +232,7 @@ nav.container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 5rem;
-}
-
-.use-case {
-    text-align: center;
+    padding: 0 3rem;
 }
 
 .use-case-icon {
@@ -359,7 +356,7 @@ nav.container{
 
 .stat-line{
     width: 1px;
-    margin: 0 2.5rem 0 0;
+    margin: 0 2rem 0 0;
     background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='white' stroke-width='4' stroke-dasharray='2%2c 8' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");
 }
 
@@ -370,7 +367,7 @@ nav.container{
 
 .stat-description{
     font-weight: 300;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.07rem;
 }
 
 .stat-number {
@@ -422,9 +419,10 @@ nav.container{
 }
 
 .enhancement-heiglight{
+    font-weight: 800;
     background-image: url("Assets/Images/bg.jpg");
     background-size: 500px;
-    background-position: right;
+    background-position: left;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -547,7 +545,7 @@ nav.container{
 
 /* CTA Section */
 .cta {
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.85);
     color: white;
     padding: 80px 0;
     text-align: center;
@@ -595,7 +593,7 @@ footer .container{
 
     h2{
         font-size: 1.8rem;
-        line-height: 1;
+        line-height: 1.5;
     }
 
     .hero h1 {
